@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppFirebase</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui!</string>
+    <string name="Titulo_tela_cadastro">Cadastre-se!</string>
+    <string name="Text_cadastar">Cadastrar</string>
+    <string name="Text_userName"></string>
+    <string name="Text_emailUser"></string>
+
+</resources>

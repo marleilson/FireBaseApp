@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Fazendo a tela ficar responsiva em modo horizontal. -->
+<!-- Envelopando os componentes nesse elemento. -->
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastro">
+
+    <TextView
+        android:id="@+id/Texto_tela_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_tela_cadastro"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/ContainerComponents2"
+        style="@style/ContainerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Texto_tela_cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <EditText
+        android:id="@+id/cadastro_name"
+        style="@style/Edit_Text"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_baseline_verified_user_24"
+        app:layout_constraintStart_toStartOf="@id/ContainerComponents2"
+        app:layout_constraintEnd_toEndOf="@id/ContainerComponents2"
+        app:layout_constraintTop_toTopOf="@id/ContainerComponents2"
+        />
+
+    <EditText
+        android:id="@+id/cadastro_email"
+        style="@style/Edit_Text"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        app:layout_constraintStart_toStartOf="@id/cadastro_email"
+        app:layout_constraintEnd_toEndOf="@id/cadastro_email"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_name"
+        />
+
+    <EditText
+        android:id="@+id/cadastro_senha"
+        style="@style/Edit_Text"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+        app:layout_constraintStart_toStartOf="@id/cadastro_senha"
+        app:layout_constraintEnd_toEndOf="@id/cadastro_senha"
+        app:layout_constraintTop_toBottomOf="@id/cadastro_email"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botao_cadastrar"
+        style="@style/Button"
+        android:text="@string/Text_cadastar"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ContainerComponents2"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Fazendo a tela ficar responsiva em modo horizontal. -->
+    </androidx.core.widget.NestedScrollView>

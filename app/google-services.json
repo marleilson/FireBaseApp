@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1759160844",
+    "project_id": "projeto-aurora-4717f",
+    "storage_bucket": "projeto-aurora-4717f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1759160844:android:ed7ff11bd15939e2711c29",
+        "android_client_info": {
+          "package_name": "com.example.appfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1759160844-rnjpq7vdbm01umgul29l4e2k832c8i0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVvztfSFe7vtNKSAFEO4_mVpAMpq1j134"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1759160844-rnjpq7vdbm01umgul29l4e2k832c8i0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
